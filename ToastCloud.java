@@ -22,7 +22,7 @@ stmt = con.createStatement();
 
 rs = stmt.executeQuery("SELECT name,det,addr FROM student_tb");
 
-out.println("<HTML><HEAD><TITLE>WAS2 Member</TITLE></HEAD>");
+out.println("<HTML><HEAD><TITLE>Kimdongho  Member</TITLE></HEAD>");
 out.println("<BODY>");
 out.println("<UL>");
 while(rs.next()) {
