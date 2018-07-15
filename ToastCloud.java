@@ -16,7 +16,7 @@ PrintWriter out = res.getWriter();
 try {
 Class.forName("com.mysql.jdbc.Driver");
 con = DriverManager.getConnection(
-"jdbc:mysql://192.168.0.5:13306/rep_test", "repl", "1qaz@WSX");
+"jdbc:mysql://192.168.0.11:13306/rep_test", "repl", "1qaz@WSX");
 
 stmt = con.createStatement();
 
